@@ -35,9 +35,53 @@ body {
   }
 
   .Topnav {
-    color: white;
-    background-color: rgb(42, 41, 43);
+    overflow: hidden;
+    background-color: #1f1d1d;
+    position: fixed;
+    top:-10;
+    width: 100%;
   }
+  
+  .Topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .Topnav .back  {
+    float:right;
+  }
+
+  .Topnav a:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .Topnav a:visited{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .Topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+  }
+
+  .Topnav a:active {
+    background-color: #019797;
+    color: white;
+  }
+
+
+
+
+
 
   a:link {
     color: rgb(125, 177, 165);
