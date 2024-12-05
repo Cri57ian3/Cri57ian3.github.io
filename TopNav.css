@@ -24,7 +24,7 @@ body {
     margin-right:auto;
     margin-left: auto;
     margin-bottom: 15vh;
-    width:50%;
+    width:70%;
     background-color: rgb(26, 48, 73);
     border-style: solid;
     border-width: 7px;
@@ -52,7 +52,7 @@ body {
   }
   
   a:hover {
-    color: red;
+    color: rgb(247, 190, 4);
     background-color: transparent;
     text-decoration: underline;
   }
