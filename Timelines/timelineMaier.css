@@ -137,8 +137,8 @@
 .main-timeline .timeline-content:before{ /*Righe orizzontali*/
     content: "";
     width: 100%;
-    height: 5px;
-    background: #820486;
+    height: 3px;
+    background: #7c1161;
     position: absolute;
     top: 88px;
     left: 0;
