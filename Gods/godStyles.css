@@ -4,6 +4,7 @@
   position: fixed;
   top:-10;
   width: 100%;
+  z-index: 9;
 }
 
 .Topnav a {
@@ -64,6 +65,23 @@ a:hover {
 
   h1 {
     text-align: center;
+  }
+
+
+  .click-zoom input[type=checkbox] {
+    display: none
+  }
+  
+  .click-zoom img {
+    margin: 100px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in
+  }
+  
+  .click-zoom input[type=checkbox]:checked~img {
+    transform: scale(1.5);
+    cursor: zoom-out;
+    text-align: center;       
   }
 
   

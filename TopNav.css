@@ -40,6 +40,7 @@ body {
     position: fixed;
     top:-10;
     width: 100%;
+    z-index: 9;
   }
   
   .Topnav a {
@@ -99,4 +100,24 @@ body {
     color: rgb(247, 190, 4);
     background-color: transparent;
     text-decoration: underline;
+  }
+
+
+
+  .click-zoom input[type=checkbox] {
+    display: none
+  }
+  
+  .click-zoom img {
+    margin: 100px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in
+  }
+  
+  .click-zoom input[type=checkbox]:checked~img {
+    transform: scale(2);
+    cursor: zoom-out;
+    position: absolute;
+    top: 70%;
+    left: 40%;
   }
