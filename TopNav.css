@@ -115,6 +115,22 @@ body {
   }
   
   .click-zoom input[type=checkbox]:checked~img {
+    transform: scale(1.5);
+    cursor: zoom-out;
+    text-align: center;
+  }
+
+  .click-zoom-big input[type=checkbox] {
+    display: none
+  }
+
+  .click-zoom-big img {
+    margin: 100px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in
+  }
+
+  .click-zoom-big input[type=checkbox]:checked~img {
     transform: scale(2);
     cursor: zoom-out;
     position: absolute;
